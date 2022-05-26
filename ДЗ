@@ -1,0 +1,22 @@
+Задача №1
+tir = input('1: ')
+got = input('2: ')
+rio = input('3: ')
+print(rio)
+print(got)
+print(tir)
+Либо, вместо трех print, поставить один.
+print('\n'.join(rio + got + tir))
+
+Задача №2
+tir = input('1: ')
+got = input('2: ')
+rio = input('3: ')
+print(tir + ' ' + got)
+print(rio)
+
+Задача №3
+name = input('Как вас зовут? ')
+old = input('Сколько вам лет? ')
+tir = name + ',' + old
+print(tir)
